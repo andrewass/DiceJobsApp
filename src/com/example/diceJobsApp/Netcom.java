@@ -29,7 +29,8 @@ public class Netcom {
 	private void getToken(){
 
 		final String USER_ID = "diceHackathon";
-		final String PW = "9fc52528-080d-4f0c-becd-45acf46bac4e";
+		
+		final String PW = ""; //Currently removed
 		try{
 			URI uri = new URI("https://secure.dice.com/oauth/token?grant_type=client_credentials");
 			DefaultHttpClient client = new DefaultHttpClient();
